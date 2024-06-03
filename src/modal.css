@@ -1,0 +1,23 @@
+* {
+    border-radius: 4px;
+}
+
+.update {
+    border-radius: 4px;
+    background-color: #A68877;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+.modal-header, .modal-footer{
+    background-color: #89A666;
+}
+
+.modal-body {
+    background-color: #838E73;
+}
+
+textarea, input {
+    background-color: #D9C7B8;
+}

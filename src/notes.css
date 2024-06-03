@@ -1,0 +1,66 @@
+.notes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.note-container {
+  margin: 10px;
+  border: 1px solid #D9C7B8;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #838E73;
+  border-radius: 10px;
+  white-space: pre-wrap;
+}
+
+.text-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.textarea, .titleArea {
+  margin-bottom: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  background-color: #D9C7B8;
+  border-radius: 10px;
+  line-height: 1.5; 
+  resize: none;
+}
+
+.textarea {
+  height: 200px;
+}
+
+.button {
+  display: block;
+  margin-top: 10px;
+  background-color: #A68877;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.title {
+font-size: 18px;
+color: #ccc;
+}
+
+.close-icon {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
